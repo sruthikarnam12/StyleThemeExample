@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/colorTint">
+    android:background="@color/colorGrey">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,86 +15,8 @@
         android:layout_margin="@dimen/screenMargin"
         android:gravity="center_horizontal"
         >
-        <TextView
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:text="First Name"
-            android:paddingTop="@dimen/topPadding"
-            style="@style/TextViewCustom"/>
-
-        <EditText
-            android:id="@+id/firstName"
-            android:inputType="textCapWords"
-            style="@style/EditTextCustom"
-            android:hint="Wonder"/>
-            <!--  Here I applied a different style for the
-                EditText than what is applied at the theme level
-            -->
-
-        <TextView
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:text="Last Name"
-
-            />
-
-        <EditText
-            android:id="@+id/lastName"
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:inputType="textCapWords"
-            android:hint="Woman"
-             />
-
-        <TextView
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:text="Phone Number"
-            android:paddingTop="@dimen/topPadding"/>
-
-        <EditText
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:id="@+id/phoneNum"
-            android:inputType="number"
-            />
-
-        <TextView
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:text="Email"
-            android:paddingTop="@dimen/topPadding"/>
-
-        <EditText
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:id="@+id/email"
-            android:textColor="@color/colorAccentPink"
-            android:inputType="textEmailAddress"
-            />
-        <!-- you can see this textColor overrides the
-               text color listed for EditText settings applied
-               at the theme level -->
-
-        <TextView
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:text="Password"
-            android:paddingTop="@dimen/topPadding"/>
 
 
-        <EditText
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
-            android:id="@+id/password"
-            android:inputType="textPassword" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="clickMe"
-            android:text="Click here"
-            android:layout_marginBottom="100dp"/>
 
     </LinearLayout>
 </ScrollView>

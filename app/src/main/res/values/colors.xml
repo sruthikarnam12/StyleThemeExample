@@ -2,21 +2,22 @@
 <resources>
 
     <!-- Default Android colors -->
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <!-- Green Theme -->
+    <color name="primaryGreenColor">#a5d6a7</color>
 
-    <!-- Color codes for pink mode -->
-    <color name="colorPrimaryPink">#FF4081</color>
-    <color name="colorPrimaryDarkPink">#C60055</color>
-    <color name="colorAccentPink">#FF79B0</color>
-    <color name="colorTint">#77EEAEC4</color>
+    <color name="primaryGreenLightColor">#d7ffd9</color>
 
-    <!-- Colors for Blue mode -->
-    <color name="colorPrimaryBlue">#00A9F4</color>
-    <color name="colorPrimaryDarkBlue">#007AC1</color>
-    <color name="colorAccentBlue">#67DAFF</color>
-    <color name="colorBackground">#EEEEEE</color>
+    <color name="primaryGreenDarkColor">#75a478</color>
+
+    <color name="secondaryGreenColor">#e8f5e9</color>
+
+    <color name="secondaryGreenLightColor">#ffffff</color>
+
+    <color name="secondaryGreenDarkColor">#b6c2b7</color>
+
+    <color name="primaryTextColor">#000000</color>
+
+    <color name="secondaryTextColor">#000000</color>
 
     <color name="colorGrey">#666B6B</color>
 
